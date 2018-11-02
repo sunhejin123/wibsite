@@ -1,0 +1,31 @@
+body,html,h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,input,button,p,ol{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+	font-size: 14px;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.clear{
+	clear: both;
+}
+.clearfix:after{
+	content: "";
+	width: 0;
+	height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+.hid{
+	overflow: hidden;
+}
+.fix{
+	position: fixed;
+}
