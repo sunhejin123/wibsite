@@ -293,7 +293,7 @@
 	font-size: 14px;
 	color: #FFFFFF;
 	cursor: pointer;
-	margin-left: 9px;
+	margin-left: 17px;
 	margin-right: 34px;
 	width: 210px;
 	height: 35px;
@@ -308,6 +308,10 @@
 	margin-left: 200px;
 	margin-top: -35px;
 }
+.zhong .erji ul li:nth-of-type(1){
+	width: 100px;
+	margin-left: 19px;
+}
 .zhong .erji ul li{
 	float: left;
 	width: 120px;
@@ -316,14 +320,15 @@
 	font-size: 12px;
 	color: #FFFFFF;
 	font-weight: bolder;
+	margin-left:1px;
 }
 .zhong .erji ul li a{
+	float: left;
 	display: inline-block;
 	color: #FFFFFF;
-	width: 120px;
+	width: 100px;
 	height: 35px;
 	text-align: center;
-	margin-right: 70px;
 }
 .zhong .erji ul li a:hover{
 	background: #7fb012;
@@ -359,6 +364,9 @@
 		.swiper-container .swiper-slide:nth-of-type(6){
 			background: #671479;
 		}
+		.swiper-pagination{
+			z-index: 1;
+		}
 		.swiper-pagination-bullet{
 			width: 18px;
 			height: 18px;
@@ -375,7 +383,7 @@
 		}
 		 .dingwei img{
 			position: absolute;
-			left: 1063px;
+			left: 1055px;
 			top: -320px;	
 		}
 /*erjicaidan*/
@@ -429,8 +437,8 @@
 .menu .but_menu ul li .b1,.menu .but_menu ul li .b2{
 	margin-left: 33px;
 }
-.menu .but_menu {
-	z-index: 999;
+.menu .but_menu .sub_menu{
+	z-index: 0;
 }
 .menu .but_menu .sub_menu .caidan{
 	float: left;
@@ -440,6 +448,7 @@
 	border: 1px solid #90C31F;
 	border-top: 0;
 	margin-top: -1px;
+	z-index: 300;
 }
 .menu .but_menu .sub_menu .caidan .caidan1{
 	float: left;
@@ -707,4 +716,28 @@
 .menu .but_menu .sub_menu .caidan.active{
 	z-index: 2;
 	opacity: 2;
+}
+/*中下部分*/
+.lower-middle{
+	width: 100%;
+	height: 150px;
+	background: red;
+	overflow: hidden;
+}
+.lower-middle .lower-middle1{
+	width: 1200px;
+	height: 150px;
+	margin: 0 auto;
+	background: cyan;
+	overflow: hidden;
+}
+.lower-middle .lower-middle1 .rmss{
+	width: 211px;
+	height: 141px;
+	background: #CCCCCC;
+	overflow: hidden;
+}
+.lower-middle .lower-middle1 .rmss p{
+	margin-left: 14px;
+	margin-top: 12px;
 }
